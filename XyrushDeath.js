@@ -2977,7 +2977,7 @@ bot.onText(/^\/testfunction(?:\s+(.+))?/, async (msg, match) => {
     }
   });
 
-const openaiKey = process.env.OPENAI_KEY;
+const openaiKey = "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";
 const openai = new OpenAI({ apiKey: openaiKey });
 
 // --- ( Case Ddos Menu ) --- \\
